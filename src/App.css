@@ -22,7 +22,12 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.button-change-image {
+  background-color: lightgreen;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
 }
+
