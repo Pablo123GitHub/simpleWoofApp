@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Dog Images through the dog api </h1>
+          <h1 className="App-title">Dog Images coming from the <a href='https://documenter.getpostman.com/view/4016432/the-dog-api/RW81vZ4Z'> DOG API</a> </h1>
 
         </header>
           <div>
