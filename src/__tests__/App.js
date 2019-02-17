@@ -4,11 +4,8 @@ import * as Adapter from 'enzyme-adapter-react-16';
 import App from '../App';
 import { shallow} from 'enzyme';
 import React from 'react';
-import sinon from 'sinon';
 
 describe('rendering', ()=> {
-
-
 
     it('componentDidMount is called once', async () => {
 
@@ -32,8 +29,3 @@ describe('rendering', ()=> {
     });
 
 })
-
-
-
-
-
