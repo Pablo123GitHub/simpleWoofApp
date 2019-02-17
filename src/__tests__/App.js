@@ -12,16 +12,9 @@ describe('rendering', ()=> {
          wrapper = shallow(<App/>)
     })
 
-    it('axios method "get" gets called once  right from the start', async () => {
-        // wrapper.find('button').simulate('click');
-        // the axios.get gets called twice because of the page update+ button click
-        expect(mockAxios.get).toHaveBeenCalledTimes(1);
-     });
-
-    it('axios get gets called three times: first test + page update + click current test', async () => {
+    it('axios get gets called two times: age update + click simulation', async () => {
         wrapper.find('button').simulate('click');
-        // the axios.get gets called twice because of the page update+ button click
-        expect(mockAxios.get).toHaveBeenCalledTimes(3);
+        expect(mockAxios.get).toHaveBeenCalledTimes(2);
      });
  
 
